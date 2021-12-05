@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+header
+{
+    border: #344d2f solid 5px;
+    background-color: #a81817;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lobster', bold;
+}
+
+
+
+
+main
+{
+    border: #344d2f solid 7px;
+    width: 100%;
+    background: url(background.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+article
+{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#article_img
+{
+    margin-top: 90px;
+    width: 40%;   
+    /*margin-left: 50px;*/
+}
+
+
+
+#article_text
+{
+    margin-top: 90px;
+    vertical-align: middle;
+    font-size: 35px;
+    width: 40%;   
+    color: #f0f4f7;
+    margin-bottom: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+#copyright
+{
+    font-size: 35px;
+    color: #f0f4f7;
+    font-family: 'Lobster', bold;
+}
+
+#footer_2
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+#footer_3
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Lobster', bold;
+}
+
+#socialM
+{
+    display: flex;
+}
+
+.fl3
+{
+    margin-top: 5px;
+}
+
+#Sinatra
+{
+    width: 100%;
+}
+
+section
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.6); 
+    width: 100%; 
+    font-family: 'Lobster', bold;
+}
+
+.music_img
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer
+{
+    border: #344d2f solid 7px;
+    background-color: #a81817;
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.pic
+{
+    height: 200px;
+    width: 200px;
+}
+
+
+#logo
+{
+    display: inline-block;
+    border: black solid 4px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 55px;
+    height: 55px;
+  }
+#logo img
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.link
+{
+    color: #f0f4f7;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+.link:hover
+{
+    color: #fac57d;
+}
+
+nav
+{
+    width: 60%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.footer_box
+{
+    padding-top: 30px;
+    height: 80%;
+    width: 30%;
+}
+
+.title
+{
+    
+    font-size: 26px;
+    color: #f0f4f7;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.fl1
+{
+    margin-top: 25px;
+    color: #f0f4f7;
+    font-size: 16px;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+.fl1:hover
+{
+    color: #fac57d;
+}
+.fl3
+{
+    justify-content: center;
+    color: #f0f4f7;
+    font-size: 21px;
+    margin-top: 15px;
+}
+
+#footer_1
+{
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    border-right: #c8beb9 1px solid;
+    font-family: 'Lobster', bold;
+}
+
+.row_1
+{
+    display: flex;
+    font-size: 35px;
+    color: #f0f4f7;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.row_2
+{
+    display: flex;
+    font-size: 35px;
+    color: #f0f4f7;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.music_text
+{
+    margin-top: 40px;
+}
+
+
+
+
+@media(max-width: 1400px)
+{
+    article
+    {
+        margin-top: 40px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main
+    {
+        border: #344d2f solid 7px;
+    }
+
+    .row_1
+    {
+        display: flex;
+        font-size: 34px;
+        color: #f0f4f7;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .row_2
+    {
+        display: flex;
+        font-size: 34px;
+        color: #f0f4f7;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .music_text
+    {
+        margin-top: 40px;
+    }
+
+    #article_img
+    {
+        width: 80%;
+        margin-left: 10%; 
+        border:#344d2f solid 7px;  
+        border-radius: 20px;
+    }
+
+    #Sinatra
+    {
+        width: 100%;
+    }
+
+
+
+    #article_text
+    {
+        border-radius: 20px;
+        color: black;
+        margin-top: 30px;
+        margin-left: 10%;
+        font-size: 35px;
+        width: 80%;   
+    }
+}
+
+@media (max-width: 1000px)
+{
+    /*nav
+    {
+        width: 60%;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }*/
+    #article_text
+    {
+        color: #f0f4f7;
+    }
+
+    nav
+    {
+        font-size: 30px;
+        padding-top: 27px;
+    }
+
+    #logo
+    {
+       display: inline-block;
+       border: black solid 2px;
+       border-radius: 50%;
+       overflow: hidden;
+       width: 95px;
+       height: 95px;
+    }
+
+    header
+    {
+        border:#344d2f solid 5px; 
+        background-color: #a81817;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section
+    {
+        margin-top: 100px;
+        padding-top: 100px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 1400px;
+    }
+
+    .music_img
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 600px;
+    }
+
+    #copyright
+    {
+        color: #f0f4f7;
+        font-size: 26px;
+    }
+
+    .pic
+    {
+        height: 300px;
+        width: 300px;
+    }
+
+    .title
+    {
+        font-size: 30px;
+        color: #f0f4f7;
+        
+    }
+
+    .fl1:hover
+    {
+        color:#fac57d;
+    }
+
+    .fl1
+    {
+        margin-top: 20px;
+        color: #f0f4f7;
+        font-size: 21px;
+        transition-property: color;
+        transition-duration: 0.3s;
+    }
+
+}
+
+
